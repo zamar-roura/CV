@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ZAMAR}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ROURA}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Madrid}\\
+	\icon{Phone}{12}{+34 652 45 96 46}\\
+	\icon{At}{12}{\href{mailto:zamar.fazal@gmail.com}{zamarfazal@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Globe}{12}{\href{https://zamar-roura.com}{zamar-roura.com}}\\
+	\icon{Github}{12}{\href{https://github.com/zamar-roura}{github.com/zamar-roura}}\\
+	\icon{Instagram}{12}{\href{https://www.instagram.com/zamarelahi/}{zamarelahi}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	I'm a dedicated person with passion on what I studied. I like to find clean solutions to problems and improve my work and knowledge day by day.
+	
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{VBA}{90}
+		\baritem{Python}{70}
+		\baritem{Java}{70}
+		\baritem{C++}{70}
+		\baritem{Javascript}{50}
+		\baritem{Angular/Typescript}{50}
+		\baritem{LaTeX}{40}
+	\end{barchart}
+\end{minipage}
+
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-15mm} % Required for vertically aligning minipages
+	\bubbles{4/Git, 5/Office, 4/JIRA, 3/Visual Studio, 5/Adobe}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2017 -- today}
+		{Junior Consultant}
+		{LEDA-mc Consulting}
+		{Auditing software developed by companies such as IBM, INDRA, NEORIS, EVERIS, ACCENTURE, HUAWEI, NOKIA\\Dashboard reports of software economic indicators \\ Automated internal operative of company \\ \texttt{VBA}\slashsep\texttt{Python}\slashsep\texttt{IFPUG}}
+	\entry
+		{2012 -- 2014\\\footnotesize{Summer Internship}}
+		{Graphic Designer}
+		{MTA International}
+		{Video and photo editing on diverse projects\\ \texttt{Adobe Photoshop}\slashsep\texttt{Adobe Premiere Pro}\slashsep\texttt{Adobe After Effects}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2014 -- today}
+		{Bachelor's Degree}
+		{Universidad Alcalá de Henares}
+		{Computer Engineering Degree making the final project\\ Class representative}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Spanish} - Native\\
+	\textbf{English} - Bilingual (C1 Cambridge)\\
+	\textbf{Hindi/Urdu} - Hindi paternal lineage
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	I'm an avid sportsman specially in calisthenics or bodyweight fitness. I also train a little group of people. 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Other skills}
+	
+	Driving License (B2)
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
